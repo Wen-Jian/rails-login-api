@@ -4,5 +4,6 @@ module Resturant::V1
     version 'v1'
 
     mount Resturant::V1::Api::TestApi::APIv1
+    mount Resturant::V1::Api::MemberApi::APIv1
   end
 end
