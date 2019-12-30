@@ -3,7 +3,7 @@ module Resturant::V1::Api::MemberApi
       resource :members do
         group do
             params do
-                requires :Zi, type: Hash do
+                optional :Zi, type: Hash do
                     requires :access_token, type: String
                     requires :expires_at, type: String
                 end
