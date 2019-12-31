@@ -10,6 +10,7 @@ module Resturant::V1::Api::MemberApi
             # end
             post '/request_token' do
                 puts params
+                {success: true}
             end
         end
       end
